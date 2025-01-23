@@ -1,0 +1,15 @@
+ARG-SF-01:
+  device_type: cisco_xr
+  host: 10.225.253.146
+  username: gafinche
+  password: C1sco.123
+ARG-SF-02:
+  device_type: cisco_xr
+  host: 10.225.253.147
+  username: gafinche
+  password: C1sco.123
+ARE-93180-1:
+  device_type: cisco_nxos
+  host: 10.225.253.90
+  username: gafinche
+  password: C1sco.123
