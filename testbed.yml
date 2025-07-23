@@ -1,0 +1,130 @@
+ARG-SF-01:
+  device_type: cisco_xr
+  host: 10.225.253.146
+  username: gafinche
+  password: C1sco.123
+ARG-SF-02:
+  device_type: cisco_xr
+  host: 10.225.253.147
+  username: gafinche
+  password: C1sco.123
+ARE-93180-1:
+  device_type: cisco_nxos
+  host: 10.225.253.90
+  username: gafinche
+  password: C1sco.123
+CRE-9364-1:
+  device_type: cisco_nxos
+  host: 10.225.253.176
+  username: gafinche
+  password: C1sco.123
+BRPASR1K:
+  device_type: cisco_ios
+  host: 10.225.253.180
+  username: gafinche
+  password: C1sco.123
+ORC41:
+  device_type: cisco_xr
+  host: 10.225.253.157
+  username: gafinche
+  password: C1sco.123
+ORC42:
+  device_type: cisco_xr
+  host: 10.225.253.158
+  username: gafinche
+  password: C1sco.123
+ORC43:
+  device_type: cisco_xr
+  host: 10.225.253.170
+  username: gafinche
+  password: C1sco.123
+ORC44:
+  device_type: cisco_xr
+  host: 10.225.253.171
+  username: gafinche
+  password: C1sco.123
+ARG55a1-1:
+  device_type: cisco_xr
+  host: 10.225.253.119
+  username: gafinche
+  password: C1sco.123
+ARG55a1-2:
+  device_type: cisco_xr
+  host: 10.225.253.77
+  username: gafinche
+  password: C1sco.123
+DRE-9364-1:
+  device_type: cisco_nxos
+  host: 10.225.253.72
+  username: gafinche
+  password: C1sco.123
+DRE-9364-2:
+  device_type: cisco_xr
+  host: 10.225.253.73
+  username: gafinche
+  password: C1sco.123
+ERE9336-1:
+  device_type: cisco_xr
+  host: 10.225.253.73
+  username: gafinche
+  password: C1sco.123
+N3264-1-CRE-DSC:
+  device_type: cisco_nxos
+  host: 10.225.253.214
+  username: gafinche
+  password: C1sco.123
+N3264-2-CRE-DSC:
+  device_type: cisco_nxos
+  host: 10.225.253.206
+  username: gafinche
+  password: C1sco.123
+DRC-8201-1:
+  device_type: cisco_xr
+  host: 10.225.253.60
+  username: gafinche
+  password: C1sco.123
+DRC-8201-2:
+  device_type: cisco_xr
+  host: 10.225.253.160
+  username: gafinche
+  password: C1sco.123
+L01SVS00:
+  device_type: cisco_nxos
+  host: 10.225.253.90
+  username: gafinche
+  password: C1sco.123
+L01SVS01:
+  device_type: cisco_nxos
+  host: 10.225.253.91
+  username: gafinche
+  password: C1sco.123
+S01SVS00:
+  device_type: cisco_nxos
+  host: 10.225.253.92
+  username: gafinche
+  password: C1sco.123
+S01SVS01:
+  device_type: cisco_nxos
+  host: 10.225.253.93
+  username: gafinche
+  password: C1sco.123
+OSC-3408-1:
+  device_type: cisco_nxos
+  host: 10.225.253.200
+  username: gafinche
+  password: C1sco.123
+OSC-3408-2:
+  device_type: cisco_nxos
+  host: 10.225.253.220
+  username: gafinche
+  password: C1sco.123
+ARG-3408-1:
+  device_type: cisco_nxos
+  host: 10.225.253.213
+  username: gafinche
+  password: C1sco.123
+ARG-3408-2:
+  device_type: cisco_nxos
+  host: 10.225.253.205
+  username: gafinche
+  password: C1sco.123
