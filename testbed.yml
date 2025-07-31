@@ -1,6 +1,6 @@
 ARG-SF-01:
   device_type: cisco_xr
-  host: 10.225.253.146
+  host: 10.225.253.246
   username: gafinche
   password: C1sco.123
 ARG-SF-02:
@@ -11,13 +11,23 @@ ARG-SF-02:
 ARE-93180-1:
   device_type: cisco_nxos
   host: 10.225.253.90
-  username: gafinche
-  password: C1sco.123
+  username: admin
+  password: cisco.123
+ARE-93180-2:
+  device_type: cisco_nxos
+  host: 10.225.253.91
+  username: admin
+  password: cisco.123
 CRE-9364-1:
   device_type: cisco_nxos
   host: 10.225.253.176
-  username: gafinche
-  password: C1sco.123
+  username: admin
+  password: cisco.123
+CRE-9364-2:
+  device_type: cisco_nxos
+  host: 10.225.253.177
+  username: admin
+  password: cisco.123
 BRPASR1K:
   device_type: cisco_ios
   host: 10.225.253.180
@@ -88,16 +98,6 @@ DRC-8201-2:
   host: 10.225.253.160
   username: gafinche
   password: C1sco.123
-L01SVS00:
-  device_type: cisco_nxos
-  host: 10.225.253.90
-  username: gafinche
-  password: C1sco.123
-L01SVS01:
-  device_type: cisco_nxos
-  host: 10.225.253.91
-  username: gafinche
-  password: C1sco.123
 S01SVS00:
   device_type: cisco_nxos
   host: 10.225.253.92
@@ -126,5 +126,15 @@ ARG-3408-1:
 ARG-3408-2:
   device_type: cisco_nxos
   host: 10.225.253.205
+  username: gafinche
+  password: C1sco.123
+BRC-8201:
+  device_type: cisco_xr
+  host: 10.225.253.167
+  username: gafinche
+  password: C1sco.123
+BRC-55a1: 
+  device_type: cisco_xr
+  host: 10.225.253.227
   username: gafinche
   password: C1sco.123
