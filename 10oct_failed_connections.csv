@@ -1,0 +1,66 @@
+Device Name,Error Message
+CRE-9364-1,"Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: cisco_nxos 10.225.253.176:22
+
+
+Authentication failed."
+BRPASR1K,"TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 10.225.253.180:22
+
+"
+ARE-93180-2,"Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: cisco_nxos 10.225.253.91:22
+
+
+Authentication failed."
+ORC41,"Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: cisco_xr 10.225.253.157:22
+
+
+Authentication failed."
+CRE-9364-2,"Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: cisco_nxos 10.225.253.177:22
+
+
+Authentication failed."
+ARG-3408-2,"Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: cisco_nxos 10.225.253.205:22
+
+
+Authentication failed."
