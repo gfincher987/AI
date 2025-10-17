@@ -1,0 +1,32 @@
+aaa group server tacacs+ tac_tls
+ vrf mgmt
+ server-private 10.225.253.209 port 6049
+  timeout 10
+  tls
+   trustpoint SVS_KF
+  !
+  single-connection
+  single-connection-idle-timeout 30
+
+aaa authorization exec default group tac_tls local
+aaa authorization exec no_tacacs none
+aaa authorization commands default group tac_tls none
+aaa authorization commands no_tacacs none
+aaa authorization eventmanager default local
+aaa authentication login default group tac_tls local
+aaa authentication login no_tacacs local
+
+!
+aaa accounting exec default start-stop group tac_tls_sc
+aaa accounting system default start-stop group tac_tls_sc
+aaa accounting network default start-stop group tac_tls_sc
+aaa accounting commands default stop-only group tac_tls_sc
+aaa accounting commands no_tacacs start-stop none
+
+crypto ca trustpoint SVS_KF
+ crl optional
+ vrf mgmt
+ subject-name C=US,ST=NC,L=RTP,O=Cisco,OU=SVS,CN={HOSTNAME}
+ subject-alternative-name IP:{DEVICE_IP},DNS:{HOSTNAME}
+ enrollment url terminal
+!
